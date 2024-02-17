@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Health temporrary </title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA3-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="healthcare.css">
+</head>
+<body class="content" style="max-width:1300px">
+  <div class="center-text" style="background-color:white; background-image: url(wallpaper.avif);">
+      <nav class="navigation">
+          <a href="#home" style="color: black;">Home</a>
+          <a href="#data" style="color: black;">Data</a>
+          <a href="#about us" style="color: black;">About Us</a>
+      </nav>
+      <img src="cuny logo.png" alt="Your Image" style="float: left; max-height: 90px; margin-left: 10px; margin-top: -60px;;">
+  </div>
+  <br>
+
+  <div class="center container section" id="home">
+        <h2>Intro</h2>
+        <p>p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+          p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+          p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+          p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+          p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+          p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+          p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+          p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+          p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+          p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+          p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+          p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+
+        </p>
+      </div>
+    </div>
+
+    <div class="center container section" id="data">
+      <h2>Data Input</h2>
+      <form id="inputForm">
+          <div id="checks">
+              <input type="text" id="height" placeholder="Height" required>
+              <input type="text" id="weight" placeholder="Weight (lbs)" required>
+              <input type="number" id="ageGroup" placeholder="Age (65+)" min="65" required>
+              <select id="gender" placeholder="Gender" required>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="nonbinary">Nonbinary</option>
+              </select>
+          </div>
+  
+          <div id="healthIssues">
+              <div class="health-issue-group">
+                  <label><input type="checkbox" name="healthIssue" value="arthritis"> Arthritis</label><br>
+                  <label><input type="checkbox" name="healthIssue" value="osteoporosis"> Osteoporosis</label><br>
+                  <label><input type="checkbox" name="healthIssue" value="heartDisease"> Heart Disease</label><br>
+                  <label><input type="checkbox" name="healthIssue" value="diabetes"> Diabetes</label><br>
+                  <label><input type="checkbox" name="healthIssue" value="visionproblems"> Vision Problems</label><br>
+              </div>
+              <div class="health-issue-group">
+                  <label><input type="checkbox" name="healthIssue" value="hearingloss"> Hearing Loss</label><br>
+                  <label><input type="checkbox" name="healthIssue" value="cognitivedecline"> Cognitive Decline</label><br>
+                  <label><input type="checkbox" name="healthIssue" value="respiratory issues"> Respiratory Issues</label><br>
+                  <label><input type="checkbox" name="healthIssue" value="cancer"> Cancer</label><br>
+                  <label><input type="checkbox" name="healthIssue" value="influenzaandpneumonia"> Influenza and Pneumonia</label><br>
+              </div>
+              <div class="health-issue-group">
+                  <label><input type="checkbox" name="healthIssue" value="Depression and Anxiety"> Depression and Anxiety</label><br>
+                  <label><input type="checkbox" name="healthIssue" value="UninaryIncontinence"> Uninary Incontinence</label><br>
+                  <label><input type="checkbox" name="healthIssue" value="SleepDisorders"> Sleep Disorders</label><br>
+                  <label><input type="checkbox" name="healthIssue" value="Obesity"> Obesity</label><br>
+                  <label><input type="checkbox" name="healthIssue" value="MobilityIssues"> Mobility Issues</label><br>
+              </div>
+          </div>
+      </form>
+  
+      <button type="button" id="submitButton" onclick="submitForm()">Submit</button>
+  </div>
+  
+          
+      </div>
+      <div id="messageContainer">
+        <h2>Connecting you to a professional doctor</h2>
+        <p> Please wait while we connect you.</p>
+  </div>
+
+ <div class="center container section" id="about us">
+  <h2>About Us</h2>
+  <p>p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+    p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+    p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+    p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+    p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+    p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+    p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+    p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+    p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+    p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+    p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+    p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
+
+  </p>
+ </div>
+ </div>
+
+
+
+
+
+<!-- Footer -->
+<footer class="bar white padding card" style="letter-spacing: 4px;">
+  <p>&copy; 2024 Healthcere temporary . All rights reserved.</p>
+</footer>
+    <script src="healthcare.js"></script>
+ </body>
+ </html>
