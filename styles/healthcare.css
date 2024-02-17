@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack children vertically */
+    max-width: 1000px; /* Maximum width of the container */
+    margin: auto; /* Center the container in the page */
+    padding: 40px; /* Padding inside the container */
+    background-color: white; /* Background color of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+    border-radius: 10px; /* Optional: Round the corners */
+  }
+  
+  .content {
+    background-image: url('health\ wall.avif'); 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+  }
+  
+  
+  .responsive {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 80%; 
+    border-collapse: collapse;
+     margin-top: 70px;
+  }
+  
+  .table th, .table td {
+    border: 1px solid black;
+    padding: 30px;
+    text-align: left;
+  }
+  
+  
+  
+  .section {
+    padding: 40px;
+    margin-bottom: 20px; /* This adds space below each section */
+  
+  }
+  
+  .center-text {
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    padding: 20px 0; 
+  }
+  
+  .center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+#inputForm {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+#inputForm input,
+#inputForm select,
+#inputForm button {
+    margin-bottom: 10px;
+}
+
+#data {
+    display: flex;
+    justify-content: space-between;
+}
+
+#messageContainer {
+    display: none;
+    width: 300px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#healthIssues {
+  float: right;
+  width: 300px; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  text-align: center;
+}
+
+#checks input,
+#checks select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.health-issue-group {
+  margin-top: 10px;
+}
