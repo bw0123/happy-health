@@ -29,7 +29,6 @@
     </div>
   </div>
   
-  <div class='tableauPlaceholder' id='viz1708213639203' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;He&#47;HeartCUNY&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HeartCUNY&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;He&#47;HeartCUNY&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1708213639203');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='1157px';vizElement.style.maxWidth='1257px';vizElement.style.width='100%';vizElement.style.minHeight='803px';vizElement.style.maxHeight='903px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='1157px';vizElement.style.maxWidth='1257px';vizElement.style.width='100%';vizElement.style.minHeight='803px';vizElement.style.maxHeight='903px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1827px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
   <div class="center container section" id="home">
         <h2>Intro</h2>
@@ -49,20 +48,23 @@
         </p>
       </div>
     </div>
+<div class='tableauPlaceholder centered-container' id='viz1708213639203' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;He&#47;HeartCUNY&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HeartCUNY&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;He&#47;HeartCUNY&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1708213639203');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='1157px';vizElement.style.maxWidth='1257px';vizElement.style.width='100%';vizElement.style.minHeight='803px';vizElement.style.maxHeight='903px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='1157px';vizElement.style.maxWidth='1257px';vizElement.style.width='100%';vizElement.style.minHeight='803px';vizElement.style.maxHeight='903px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1827px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
     <div class="center container section" id="data">
       <h2>Data Input</h2>
       <form id="inputForm">
-          <div id="checks">
-              <input type="text" id="height" placeholder="Height" required>
-              <input type="text" id="weight" placeholder="Weight (lbs)" required>
-              <input type="number" id="ageGroup" placeholder="Age (65+)" min="65" required>
-              <select id="gender" placeholder="Gender" required>
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
-                  <option value="nonbinary">Nonbinary</option>
-              </select>
-          </div>
+        <div id="checks">
+          <input type="text" id="height" placeholder="Height" required>
+          <input type="text" id="weight" placeholder="Weight (lbs)" required>
+          <input type="number" id="ageGroup" placeholder="Age (65+)" min="65" required>
+          <input type="number" id="heartRate" placeholder="Heart Rate (bpm)" required>
+          <select id="gender" placeholder="Gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="nonbinary">Nonbinary</option>
+          </select>
+        </div>
+        
   
           <div id="healthIssues">
               <div class="health-issue-group">
