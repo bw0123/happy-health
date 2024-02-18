@@ -7,28 +7,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="healthcare.css">
 </head>
-<body class="content" style="max-width:1300px">
-  <div class="center-text" style="background-color:white; background-image: url(wallpaper.avif);">
-      <nav class="navigation">
-          <a href="#home" style="color: black;">Home</a>
-          <a href="#data" style="color: black;">Data</a>
-          <a href="#about us" style="color: black;">About Us</a>
-      </nav>
-      <img src="cuny logo.png" alt="Your Image" style="float: left; max-height: 90px; margin-left: 10px; margin-top: -60px;;">
+<body class="content" style="max-width:1400px">
+  <div class="center-text" style="background-color:white; background-image: url(wallpaper.avif); padding-top:-60%">
+    <div style="text-align: center;">
+      <img class="image" src="website title .png" alt="Health" style="width: 30%; display: block;  margin: 0 auto; margin-top: 30px;">
+    </div>
+    <nav class="navigation" style="text-align: right;">
+      <a href="#home" style="color: black;">Home</a>
+      <a href="#seek-professional-services" style="color: black;">Services</a>
+      <a href="#about-us" style="color: black;">About Us</a>
+    </nav>
+    <img src="cuny logo.png" alt="Your Image" style="float: left; max-height: 90px; margin-left: 10px; margin-top: -90px;">
   </div>
   <br>
+</body>
 
-  <div style="position: relative; width: 80%; margin: auto; margin-bottom: 20px;">
+  <div style="position: relative; width: 100%; margin: auto; margin-bottom: 20px;">
     <!-- Image -->
-    <img src="wellness-programs.jpg.webp" alt="health" style="width: 100%; display: block;">
+    <img class="image" src="wellness-programs.jpg.webp" alt="Health"style="width: 100%; display: block;" >
   
     <!-- Smaller container box for messaging -->
-    <div style="position: absolute; top: 60%; left: 30%; width: 20%; height: 10%; background-color: white; opacity: 0.6;">
+    <div style="position: absolute; top: 60%; left: 40%; width: 50%; height: 10%; background-color: white; opacity: 0.6;">
       <!-- Add your message link or form inside this div -->
-      <a href="#message" style="color: black; text-decoration: none; display: block; height: 100%;">Click to Message Us</a>
+      <a href="#message" style="color: black; text-decoration: none; display: block; height: 100%;">Listen to your heart, not 
+        just its beats, but the whispers of self-care it craves. A healthy heart is a melody of mindful choices.</a>
     </div>
   </div>
-  
+   
 
   <div class="center container section" id="home">
         <h2>Intro</h2>
@@ -48,46 +53,61 @@
         </p>
       </div>
     </div>
+<div class='tableauPlaceholder centered-container' id='viz1708213639203' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;He&#47;HeartCUNY&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HeartCUNY&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;He&#47;HeartCUNY&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1708213639203');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='1157px';vizElement.style.maxWidth='1257px';vizElement.style.width='100%';vizElement.style.minHeight='803px';vizElement.style.maxHeight='903px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='1157px';vizElement.style.maxWidth='1257px';vizElement.style.width='100%';vizElement.style.minHeight='803px';vizElement.style.maxHeight='903px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1827px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<div class="center container section" id="seek-professional-services">
+  <h2>Professional Service Form </h2>
+  <form id="inputForm">
+      <div id="checks">
+          <input type="text" id="height" placeholder="Height(ex: 5'7)" required style="width: 150px;">
+          <input type="text" id="weight" placeholder="Weight (lbs)" required style="width: 150px;">
+          <input type="number" id="ageGroup" placeholder="Age (65+)" min="65" required style="width: 150px;">
+          <input type="number" id="heartRate" placeholder="Heart Rate (bpm)" required style="width: 150px;">
+          <select id="gender" placeholder="Gender" required style="width: 150px;">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="nonbinary">Nonbinary</option>
+          </select>
+      </div>
+  </form>
 
-    <div class="center container section" id="data">
-      <h2>Data Input</h2>
-      <form id="inputForm">
-          <div id="checks">
-              <input type="text" id="height" placeholder="Height" required>
-              <input type="text" id="weight" placeholder="Weight (lbs)" required>
-              <input type="number" id="ageGroup" placeholder="Age (65+)" min="65" required>
-              <select id="gender" placeholder="Gender" required>
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
-                  <option value="nonbinary">Nonbinary</option>
-              </select>
-          </div>
-  
-          <div id="healthIssues">
-              <div class="health-issue-group">
-                  <label><input type="checkbox" name="healthIssue" value="arthritis"> Arthritis</label><br>
-                  <label><input type="checkbox" name="healthIssue" value="osteoporosis"> Osteoporosis</label><br>
-                  <label><input type="checkbox" name="healthIssue" value="heartDisease"> Heart Disease</label><br>
-                  <label><input type="checkbox" name="healthIssue" value="diabetes"> Diabetes</label><br>
-                  <label><input type="checkbox" name="healthIssue" value="visionproblems"> Vision Problems</label><br>
-              </div>
-              <div class="health-issue-group">
-                  <label><input type="checkbox" name="healthIssue" value="hearingloss"> Hearing Loss</label><br>
-                  <label><input type="checkbox" name="healthIssue" value="cognitivedecline"> Cognitive Decline</label><br>
-                  <label><input type="checkbox" name="healthIssue" value="respiratory issues"> Respiratory Issues</label><br>
-                  <label><input type="checkbox" name="healthIssue" value="cancer"> Cancer</label><br>
-                  <label><input type="checkbox" name="healthIssue" value="influenzaandpneumonia"> Influenza and Pneumonia</label><br>
-              </div>
-              <div class="health-issue-group">
-                  <label><input type="checkbox" name="healthIssue" value="Depression and Anxiety"> Depression and Anxiety</label><br>
-                  <label><input type="checkbox" name="healthIssue" value="UninaryIncontinence"> Uninary Incontinence</label><br>
-                  <label><input type="checkbox" name="healthIssue" value="SleepDisorders"> Sleep Disorders</label><br>
-                  <label><input type="checkbox" name="healthIssue" value="Obesity"> Obesity</label><br>
-                  <label><input type="checkbox" name="healthIssue" value="MobilityIssues"> Mobility Issues</label><br>
-              </div>
-          </div>
-      </form>
-  
+  <div id="healthIssues">
+    <h2>(Select only one from the group )</h2>
+    <div class="heart-diseases-group">
+        <h2>Heart Diseases</h2>
+        <label><input type="checkbox" name="healthIssue" value="CoronaryArteryDisease">Coronary Artery Disease</label><br>
+        <p class="info" id="CoronaryArteryDiseaseInfo">Coronary Artery Disease (CAD) is a condition where the blood vessels that supply the heart with oxygen and nutrients (coronary arteries) become narrowed or blocked.</p>
+
+        <label><input type="checkbox" name="healthIssue" value="HeartFailure">Heart Failure</label><br>
+        <p class="info" id="HeartFailureInfo">Heart Failure is a condition in which the heart is unable to pump blood effectively, leading to insufficient circulation and oxygen delivery to the body's tissues.</p>
+
+        <label><input type="checkbox" name="healthIssue" value="Arrhythmias">Arrhythmias</label><br>
+        <p class="info" id="ArrhythmiasInfo">Arrhythmias are irregular heart rhythms that can affect the heart's ability to pump blood efficiently.</p>
+
+        <label><input type="checkbox" name="healthIssue" value="ValvularHeartDisease">Valvular Heart Disease</label><br>
+        <p class="info" id="ValvularHeartDiseaseInfo">Valvular Heart Disease refers to problems with the heart valves, which control the flow of blood in and out of the heart chambers.</p>
+
+        <label><input type="checkbox" name="healthIssue" value="Cardiomyopathy">Cardiomyopathy</label><br>
+        <p class="info" id="CardiomyopathyInfo">Cardiomyopathy includes diseases of the heart muscle that can affect its structure and function.</p>
+    </div>
+
+    <div class="chest-pain-group">
+        <h2>Chest Pain Group</h2>
+        <label><input type="checkbox" name="healthIssue" value="Angina">Angina</label><br>
+        <p class="info" id="AnginaInfo">Angina is chest pain or discomfort caused by reduced blood flow to the heart muscle, often due to coronary artery disease.</p>
+
+        <label><input type="checkbox" name="healthIssue" value="HeartAttack">Heart Attack</label><br>
+        <p class="info" id="HeartAttackInfo">A Heart Attack is a sudden blockage of blood flow to the heart muscle, resulting in damage or death of the heart tissue.</p>
+
+        <label><input type="checkbox" name="healthIssue" value="GastroesophagealRefluxDisease">Gastroesophageal Reflux Disease</label><br>
+        <p class="info" id="GERDInfo">Gastroesophageal Reflux Disease (GERD) involves stomach acid flowing back into the esophagus, causing chest pain or discomfort.</p>
+
+        <label><input type="checkbox" name="healthIssue" value="MusculoskeletalPain">Musculoskeletal Pain</label><br>
+        <p class="info" id="MusculoskeletalPainInfo">Musculoskeletal Pain is chest pain related to the muscles, bones, or joints in the chest area, rather than the heart.</p>
+
+        <label><input type="checkbox" name="healthIssue" value="PulmonaryEmbolism">Pulmonary Embolism</label><br>
+        <p class="info" id="PulmonaryEmbolismInfo">Pulmonary Embolism is a blockage in one of the pulmonary arteries in the lungs, usually caused by a blood clot, leading to chest pain and difficulty breathing.</p>
+    </div>
+</div>
       <button type="button" id="submitButton" onclick="submitForm()">Submit</button>
   </div>
   
@@ -98,7 +118,7 @@
         <p> Please wait while we connect you.</p>
   </div>
 
- <div class="center container section" id="about us">
+ <div class="center container section" id="about-us">
   <h2>About Us</h2>
   <p>p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
     p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 
@@ -116,14 +136,9 @@
   </p>
  </div>
  </div>
-
-
-
-
-
 <!-- Footer -->
 <footer class="bar white padding card" style="letter-spacing: 4px;">
-  <p>&copy; 2024 Healthcere temporary . All rights reserved.</p>
+  <p>&copy; 2024 Wisdom in Wellness . All rights reserved.</p>
 </footer>
     <script src="healthcare.js"></script>
  </body>
