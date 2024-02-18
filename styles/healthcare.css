@@ -164,4 +164,8 @@ footer {
   background: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for the overlay transparency */
   z-index: -1;
 }
-
+.centered-container {
+  margin: 0 auto;
+  max-width: 1230px; /* Adjust as needed */
+  margin-left: 90px;
+}
