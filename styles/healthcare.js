@@ -28,19 +28,21 @@ function submitForm() {
 }
 
 function buildLink(height, weight, ageGroup, gender, healthIssues) {
-  var baseLink = 'https://doctors.nyp.org/doctor-search?';
+  var baseLinks = [
+    'https://doctors.nyp.org/doctor-search?',
+    'https://www.mountsinai.org',
+    'https://nyulangone.org',
+    'https://lenoxhill.northwell.edu'
+  ];
 
-  // Append basic information
-  baseLink += 'height=' + height +
-              '&weight=' + weight +
-              '&ageGroup=' + ageGroup +
-              '&gender=' + gender;
+  var randomIndex = Math.floor(Math.random() * baseLinks.length);
+  var selectedLink = baseLinks[randomIndex];
 
-  // Append selected health issues
-  if (healthIssues.length > 0) {
-      baseLink += '&healthIssues=' + healthIssues.join(',');
-  }
+  // You can append query parameters here based on your requirements
+  // For example:
+  // selectedLink += 'height=' + height + '&weight=' + weight;
 
-  return baseLink;
+  return selectedLink;
 }
+
 
