@@ -1,7 +1,7 @@
 # Happy health
 
 ## Inspiration 
-We were curious about the likelihood of seniors experiencing heart-related problems. Therefore, it would be beneficial to allow people to assess their risk.
+We were curious about the likelihood of seniors experiencing heart-related problems. Therefore, it would be beneficial to have a tool that allows people to assess their risk.
 
 ## Features
 * Interactive charts showing what is common for each age or heart rate
