@@ -145,7 +145,7 @@ footer {
   position: relative;
   color: white; /* Adjust text color for better visibility */
   padding: 100px 50px 50px; /* Adjust padding as needed (top right bottom left) */
-  margin-bottom: 30px; /* Add margin to create space between the container and the footer */
+  margin-bottom: 70px; /* Add margin to create space between the container and the footer */
 }
 
 #about-us::before {
