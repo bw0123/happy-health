@@ -12,7 +12,7 @@ We were curious about the likelihood of seniors experiencing heart-related probl
 There was not a lot of data on other health problems seniors had.
 
 ## Solution
-We limited the health problem to heart-related problems for seniors because they have more stable data
+We limited the health problem to heart-related problems for seniors because they have more stable data.
 
 ## What we learned
 * Collaboration
