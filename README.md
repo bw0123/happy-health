@@ -12,7 +12,7 @@ We were curious about the likelihood of seniors experiencing heart-related probl
 A problem we had was there wasn't a lot of data on other health problems seniors had.
 
 ## Solution
-We limited the health problem to heart-related problems for seniors because they have more stable data.
+We limited the health problem to heart-related problems for seniors because they have more stable data
 
 ## What we learned from this hackathon
 Most of the team are new so we learned more about collaborating together.
