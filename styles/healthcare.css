@@ -140,7 +140,7 @@ footer {
   z-index: 1;
 }
 
-#about-us {
+#health-tips {
   background: url('health.jpeg') center/cover;
   position: relative;
   color: white; /* Adjust text color for better visibility */
@@ -148,7 +148,7 @@ footer {
   margin-bottom: 70px; /* Add margin to create space between the container and the footer */
 }
 
-#about-us::before {
+#health-tips::before {
   content: "";
   position: absolute;
   top: 0;
