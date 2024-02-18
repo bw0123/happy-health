@@ -21,4 +21,4 @@ We limited the health problem to heart-related problems for seniors because they
 
 ## What's next for Happy Health
 * UI improvements
-* We plan on adding more health problems that seniors might have. Another idea that can be added if we have more time would be more data.
+* We plan on adding more health problems that seniors might have. Another idea that can be added if we have more time would be more data
