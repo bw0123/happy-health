@@ -97,13 +97,7 @@ body {
 }
 
 
-#healthIssues {
-  float: right;
-  width: 300px; /* Adjust as needed */
-  height: 500px; /* Adjust as needed */
-  border: 1px solid #ccc;
-  padding: 10px;
-}
+
 footer {
   position: fixed;
   bottom: 0;
@@ -164,8 +158,29 @@ footer {
   background: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for the overlay transparency */
   z-index: -1;
 }
+
+#seek-professional-services {
+  background: url('health.jpeg') center/cover;
+  position: relative;
+  color: white; /* Adjust text color for better visibility */
+  padding: 100px 50px 50px; /* Adjust padding as needed (top right bottom left) */
+  margin-bottom: 30px; /* Add margin to create space between the container and the footer */
+}
+
+#seek-professional-services::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for the overlay transparency */
+  z-index: -1;
+}
+
+
 .centered-container {
   margin: 0 auto;
   max-width: 1230px; /* Adjust as needed */
-  margin-left: 90px;
+  margin-left: 50px;
 }
